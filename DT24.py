@@ -1,9 +1,12 @@
-givenString = input('Enter string: ')
+from copy import deepcopy
+
+givenList = input('Enter list: ')
 
 
-def reverse_string(given_string):
-    answer = ""
-    return answer
+def copy_list(given_string):
+    new_list = []
+    new_list = deepcopy(given_string)
+    return new_list
 
 
-print(reverse_string(givenString))
+print(copy_list(givenList))

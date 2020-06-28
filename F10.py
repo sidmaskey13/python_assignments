@@ -1,9 +1,11 @@
-givenString = input('Enter string: ')
+givenList = input('Enter number List: ')
 
 
-def reverse_string(given_string):
-    answer = ""
+def only_even_list(given_string):
+    no_brackets = given_string.replace(" ", "").strip("[]").strip("()")
+    strip_list = no_brackets.split(",")
+    answer = [i for i in strip_list if int(i) % 2 == 0]
     return answer
 
 
-print(reverse_string(givenString))
+print(only_even_list(givenList))

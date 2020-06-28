@@ -1,9 +1,4 @@
-givenString = input('Enter string: ')
-
-
-def reverse_string(given_string):
-    answer = ""
-    return answer
-
-
-print(reverse_string(givenString))
+given_list = [1,2,3,4,5,6,7,8]
+print(f"List: {list}")
+new_tuple = tuple(list)
+print(f"Tupple: {tuple}")

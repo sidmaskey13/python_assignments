@@ -1,9 +1,12 @@
 givenString = input('Enter string: ')
 
 
-def reverse_string(given_string):
-    answer = ""
-    return answer
+def dictionary_empty(given_string):
+    real_dictionary = eval(given_string)
+    if not bool(real_dictionary):
+        return "Empty Dictionary"
+    else:
+        return "Not Empty Dictionary"
 
 
-print(reverse_string(givenString))
+print(dictionary_empty(givenString))

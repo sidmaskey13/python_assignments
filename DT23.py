@@ -2,11 +2,9 @@ givenString = input('Enter list: ')
 
 
 def check_list_empty(given_string):
-    brackets_removed = given_string.strip('[]').strip('()')
-    split_list = brackets_removed.split(",")
-    # return split_list
+    given_list = list(eval(given_string))
 
-    if split_list[0] == "":
+    if not given_list:
         return "list is empty"
     else:
         return "List is not Empty"

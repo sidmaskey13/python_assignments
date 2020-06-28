@@ -1,2 +1,4 @@
-x = [i for i in range(1,5)]
-print(x)
+my_dict = [{},{},{}]
+
+if len(my_dict):
+    print("Dictionary is empty")

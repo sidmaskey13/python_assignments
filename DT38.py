@@ -1,9 +1,6 @@
-givenString = input('Enter string: ')
-
-
-def reverse_string(given_string):
-    answer = ""
-    return answer
-
-
-print(reverse_string(givenString))
+dictionary = {'a': 'Apple', 'b': 'Banana', 'c': 'Cat', 'd': 'Dog'}
+key = 'a'
+print(f"Key: {key}")
+print(f"Old Dictionary: {dictionary}")
+del dictionary[key]
+print(f"New Dictionary: {dictionary}")

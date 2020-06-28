@@ -1,9 +1,6 @@
-givenString = input('Enter string: ')
+given_tuple = (1,2,3,4,5,6)
+print(f"Given Tuple: {given_tuple}")
 
+sliced_tuple = given_tuple[:3]
 
-def reverse_string(given_string):
-    answer = ""
-    return answer
-
-
-print(reverse_string(givenString))
+print(f"New Tuple: {sliced_tuple}")

@@ -1,9 +1,2 @@
-givenString = input('Enter string: ')
-
-
-def reverse_string(given_string):
-    answer = ""
-    return answer
-
-
-print(reverse_string(givenString))
+given_tuple = (1,2,3,4,5,6)
+print(f"Given Tuple Length: {len(given_tuple)}")

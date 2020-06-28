@@ -1,9 +1,15 @@
-givenString = input('Enter string: ')
+givenNumberX = int(input('Enter number X: '))
+givenNumberY = int(input('Enter number Y: '))
 
 
-def reverse_string(given_string):
-    answer = ""
-    return answer
+def lambda_add_15(x,y):
+    sum_x_15 = lambda a: a + 15
+    multiply_x_y = lambda a, b: a * b
+
+    return f"""
+    Add 15: {sum_x_15(x)}
+    Add X and Y: {multiply_x_y(x,y)}
+    """
 
 
-print(reverse_string(givenString))
+print(lambda_add_15(givenNumberX, givenNumberY))

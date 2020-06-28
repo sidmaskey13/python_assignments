@@ -1,9 +1,4 @@
-givenString = input('Enter string: ')
-
-
-def reverse_string(given_string):
-    answer = ""
-    return answer
-
-
-print(reverse_string(givenString))
+given_tuple = ('a','p','p','l','e')
+print(f"Old Tuple: {given_tuple}")
+string = ''.join(given_tuple)
+print(f"String: {string}")

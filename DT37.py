@@ -1,9 +1,5 @@
-givenString = input('Enter string: ')
-
-
-def reverse_string(given_string):
-    answer = ""
-    return answer
-
-
-print(reverse_string(givenString))
+dictionary = {'a': 2, 'b': 3, 'c': 5, 'd': 6}
+answer = 1
+for key, value in dictionary.items():
+    answer *= value
+print(f"Multiply of dictionary values are {answer}")

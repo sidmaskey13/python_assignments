@@ -1,9 +1,7 @@
-givenString = input('Enter string: ')
-
-
-def reverse_string(given_string):
-    answer = ""
-    return answer
-
-
-print(reverse_string(givenString))
+dictionary = dict()
+dictionary = {'a': 'Apple', 'b': 'Banana', 'c': 'Cat', 'd': 'Dog'}
+given_key = 'a'
+if given_key in dictionary:
+    print(f"{given_key} already exist")
+else:
+    print(f"{given_key} doesnt exist")

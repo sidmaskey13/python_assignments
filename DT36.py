@@ -1,9 +1,2 @@
-givenString = input('Enter string: ')
-
-
-def reverse_string(given_string):
-    answer = ""
-    return answer
-
-
-print(reverse_string(givenString))
+dictionary = {'a': 100, 'b': 20, 'c': 50, 'd': -100}
+print(f"Sum of dictionary values are {sum(dictionary.values())}")

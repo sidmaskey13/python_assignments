@@ -1,9 +1,5 @@
-givenString = input('Enter string: ')
+dictionary = dict()
+dictionary = {'a': 'Apple', 'b': 'Banana', 'c': 'Cat', 'd': 'Dog'}
 
-
-def reverse_string(given_string):
-    answer = ""
-    return answer
-
-
-print(reverse_string(givenString))
+for key, value in dictionary.items():
+    print(f"{key}: {value}")

@@ -1,9 +1,8 @@
-givenString = input('Enter string: ')
+givenNumber = int(input('Enter number: '))
 
 
-def reverse_string(given_string):
-    answer = ""
-    return answer
+def multiply(given_number):
+    return given_number*given_number
 
 
-print(reverse_string(givenString))
+print(multiply(givenNumber))
